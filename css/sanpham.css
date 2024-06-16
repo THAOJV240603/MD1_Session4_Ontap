@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    width: 350px;
+    margin: 30px auto;
+    position: relative; /*ràng buộc các phần tử con ko chạy ra ngoài card*/
+}
+.card img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.des{
+    padding: 15px;
+    text-align: center;
+    background-color: #bdbcbc;
+    color: yellow;
+}
+
+.sale{
+    background-color: rgb(251, 234, 80);
+    color: red;
+    padding: 15px;
+    width: 65px; /*định dạng hình tròn*/
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px; /*căn giữa chữ sale, bằng kích thước của hình tròn*/
+    font-size: 15px;
+    position: absolute; /*phá vỡ quy tắc vị trí*/
+    top: 10px;
+    left: 10px;
+}
